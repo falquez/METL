@@ -19,7 +19,7 @@
 
 #include <tao/pegtl.hpp>
 
-#include "src/Utility/insert_or_emplace.h"
+#include "Utility/insert_or_emplace.h"
 
 #include "grammar.h"
 #include "actions.h"

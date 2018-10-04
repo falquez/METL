@@ -18,9 +18,9 @@
 
 #include <map>
 
-#include "src/Compiler.h"
+#include "../Compiler.h"
 
-#include "src/API/OutputExpression.h"
+#include "../API/OutputExpression.h"
 
 namespace metl
 {

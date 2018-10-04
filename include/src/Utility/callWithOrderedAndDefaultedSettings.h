@@ -17,13 +17,13 @@
 #pragma once
 #include <tuple>
 
-#include "src/Utility/TypeList.h"
-#include "src/Utility/TypeMap.h"
-#include "src/Utility/ConstexprBranching.h"
+#include "../Utility/TypeList.h"
+#include "../Utility/TypeMap.h"
+#include "../Utility/ConstexprBranching.h"
 
-#include "src/std17/bool_constant.h"
+#include "../std17/bool_constant.h"
 
-#include "src/std17/apply.h"
+#include "../std17/apply.h"
 
 namespace metl
 {

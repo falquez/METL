@@ -18,7 +18,7 @@
 
 #include <map>
 
-#include "src/TypeErasure/UntypedExpression.h"
+#include "TypeErasure/UntypedExpression.h"
 
 #include "Stack.h"
 #include "CompilerEntityDataBase.h"

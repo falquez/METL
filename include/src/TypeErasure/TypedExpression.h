@@ -18,9 +18,9 @@
 
 #include <functional>
 
-#include "src/std17/apply.h"
+#include "../std17/apply.h"
 
-#include "src/Utility/evaluate_each.h"
+#include "../Utility/evaluate_each.h"
 
 namespace metl
 {

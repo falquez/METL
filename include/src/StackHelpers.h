@@ -18,7 +18,7 @@
 
 #include <vector>
 
-#include "src/TypeErasure/TypeEnum.h"
+#include "TypeErasure/TypeEnum.h"
 
 namespace metl
 {

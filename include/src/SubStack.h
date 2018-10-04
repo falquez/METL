@@ -19,9 +19,9 @@
 #include <vector>
 #include <string>
 
-#include "ThirdParty/Optional/optional.hpp"
+#include "../ThirdParty/Optional/optional.hpp"
 
-#include "src/TypeErasure/UntypedExpression.h"
+#include "TypeErasure/UntypedExpression.h"
 
 #include "opCarrier.h"
 #include "suffixCarrier.h"

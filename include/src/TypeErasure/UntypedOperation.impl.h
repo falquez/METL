@@ -16,11 +16,11 @@
 
 #pragma once
 
-#include "src/TypeErasure/UntypedOperation.h"
+#include "../TypeErasure/UntypedOperation.h"
 
-#include "src/TypeErasure/UntypedExpression.h"
-#include "src/TypeErasure/getTypedExpressions.h"
-#include "src/TypeErasure/areAllConstexpr.h"
+#include "../TypeErasure/UntypedExpression.h"
+#include "../TypeErasure/getTypedExpressions.h"
+#include "../TypeErasure/areAllConstexpr.h"
 
 
 namespace metl

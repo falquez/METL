@@ -16,15 +16,15 @@
 
 #pragma once
 
-#include "src/TypeErasure/UntypedOperation.fwd.h"
+#include "../TypeErasure/UntypedOperation.fwd.h"
 
 #include <functional>
 #include <vector>
 
-#include "src/std17/is_same_v.h"
-#include "src/Utility/is_specialization_of.h"
+#include "../std17/is_same_v.h"
+#include "../Utility/is_specialization_of.h"
 
-#include "src/TypeErasure/UntypedExpression.h"
+#include "../TypeErasure/UntypedExpression.h"
 
 namespace metl
 {

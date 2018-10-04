@@ -16,17 +16,18 @@
 
 #pragma once
 
+#include <cassert>
 #include <map>
 
-#include "ThirdParty/Optional/optional.hpp"
+#include "../ThirdParty/Optional/optional.hpp"
 
-#include "src/TypeErasure/UntypedExpression.h"
-#include "src/TypeErasure/UntypedFunction.h"
-#include "src/TypeErasure/UntypedConversion.h"
+#include "TypeErasure/UntypedExpression.h"
+#include "TypeErasure/UntypedFunction.h"
+#include "TypeErasure/UntypedConversion.h"
 
 
-#include "src/suffixCarrier.h"
-#include "src/opCarrier.h"
+#include "suffixCarrier.h"
+#include "opCarrier.h"
 
 #include "Associativity.h"
 

@@ -19,11 +19,11 @@
 #include <map>
 #include <string>
 
-#include "src/TypeErasure/UntypedExpression.h"
-#include "src/TypeErasure/TypedExpression.h"
-#include "src/TypeErasure/TypeEnum.h"
+#include "../TypeErasure/UntypedExpression.h"
+#include "../TypeErasure/TypedExpression.h"
+#include "../TypeErasure/TypeEnum.h"
 
-#include "src/CompilerEntityDataBase.h"
+#include "../CompilerEntityDataBase.h"
 
 namespace metl
 {
@@ -44,7 +44,7 @@ namespace metl
 			auto it = expressions_.find(classToType2<T, Ts...>());
 			if (it != expressions_.end())
 			{
-				return it->second.get<T>();
+				return it->second. template get<T>();
 			}
 			throw std::runtime_error("this is not the correct type");
 		}

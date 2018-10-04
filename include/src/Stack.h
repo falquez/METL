@@ -18,7 +18,7 @@
 #include <string>
 #include <vector>
 
-#include "src/TypeErasure/UntypedExpression.h"
+#include "TypeErasure/UntypedExpression.h"
 
 #include "opCarrier.h"
 #include "suffixCarrier.h"

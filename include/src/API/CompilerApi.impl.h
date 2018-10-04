@@ -17,9 +17,9 @@
 #pragma once
 #include "CompilerApi.h"
 
-#include "src/Compiler.impl.h"
+#include "../Compiler.impl.h"
 
-#include "src/VariableExpression.h"
+#include "../VariableExpression.h"
 
 namespace metl
 {

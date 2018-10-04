@@ -16,7 +16,7 @@
 
 #pragma once
 
-#include "src/TypeErasure/UntypedOperation.h"
+#include "../TypeErasure/UntypedOperation.h"
 
 namespace metl
 {

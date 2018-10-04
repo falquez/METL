@@ -16,9 +16,9 @@
 
 #pragma once
 
-#include "src/Utility/ConstexprBranching.h"
+#include "../Utility/ConstexprBranching.h"
 
-#include "src/Exceptions.h"
+#include "../Exceptions.h"
 
 namespace metl
 {
